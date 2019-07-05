@@ -31,11 +31,27 @@ body {
 }
 	
 .post-img{
-	width: 40%;
+	width: 80%;
   	height: auto;
 }
 
+#left {
+	float: left;
+	width: 45%;
+	background-color: lightgrey;
+	/*padding-top: 10px;
+	padding-bottom: 10px;
+	*/
+}
 
+#right {
+	float: right;
+	width: 45%;
+	background-color: lightblue;
+	/*padding-top: 10px;
+	padding-bottom: 10px;
+	*/
+}
 
 
 
@@ -43,6 +59,7 @@ body {
  FOOTER SECTION
  ============*/
 hr {
+	clear: both;
 	background-color: green /*use color picker*/;
 	height: 5px;
 }
