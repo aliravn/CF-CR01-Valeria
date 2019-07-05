@@ -1,0 +1,45 @@
+/*=============
+ HEADER SECTION
+ ============*/
+
+
+/*=============
+ NAVBAR SECTION
+ ============*/
+
+
+/*=============
+ BODY SECTION
+ ============*/
+
+
+body {
+	margin: 0;
+	background-color: #ffffff;
+}
+
+#page-container {
+	width:  95%;
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	/*padding-right: 20px;
+	padding-left:  20px;
+	background-color: #5d8dc5;
+	*/ 
+
+}
+	
+
+
+
+
+
+
+/*=============
+ FOOTER SECTION
+ ============*/
+hr {
+	background-color: green /*use color picker*/;
+	height: 5px;
+}
