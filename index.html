@@ -7,8 +7,6 @@
 
 <body>
 	<div id="page-container">
-		<!-- header: background-color #>> use colorpicker, float? -->
-		<!-- span image: margins/padding <span id="cf-logo">-->
 		<!-- span text: font-family or move it to body?, color, font-size, web-font? (link in head for font Roboto? -->
 		<header> 			
 			<img id="cf-logo" src="img/codefactory-vienna-logo.png" width="264" height="90" alt="LOGO CodeFactory">
@@ -22,8 +20,7 @@
 			<li><a href="#">CONTACT</a></li>
 		</nav>
 
-		<!-- h1: font size need to be bigger to jump onto next line or assign it as line-->
-		<!-- check behaviour if resized-->
+		<!-- BEFORE APPLYING FONT STYLES TO PAGE, check if they should be in relative units to keep text ratio (heading/text/etc) if resized-->
 		<div>
 			<h1>This is my first website :)</h1>
 		</div> 
@@ -32,26 +29,32 @@
 
 		<!-- img: RESIZE, responsive If the width property is set to a percentage and the height is set to "auto", the image will be responsive-->
 		<div class="post-block">
+
 			<div id="left">
-				<img class="post-img" src="img/Phone.png" alt="phone">
-				<p>Loction marketing platform Uberall raises further $25N and acquires competitor Navadas</p>
-				<img class="post-img" src="img/Devices.jpg" alt="devices">
-				<p>Livongo Health expands under new offering with Abbott Labs</p>
+				<div class="post" id="post-container1">
+					<img class="post-img" width="100%" src="img/Phone.png" alt="phone">
+					<div class="blog-txt">Location marketing platform Uberall raises further $25N and acquires competitor Navadas</div>
+				</div>
+				<div class="post" id="post-container2">
+					<img class="post-img" src="img/Devices.jpg" width="100%" alt="devices">
+					<div class="blog-txt">Livongo Health expands under new offering with Abbott Labs</div>
+				</div>	
 			</div>
+
 			<div id="right">
-				<img class="post-img" src="img/Taxify-Scooters.jpg" alt="scooter">
-				<p class="text-right">Taxify is entering the e-scooter game</p>
-				<img class="post-img" src="img/Debit_card_ATM.jpg" alt="Debit_card_ATM">
-				<p class="text-right">European banking app Monese scores $60M Series B led by Kinnevik</p>
+				<div class="post" id="post-container3">
+					<img class="post-img" src="img/Taxify-Scooters.jpg" width="100%" alt="scooter">
+					<div class="blog-txt">Taxify is entering the e-scooter game</div>
+				</div>
+				<div class="post" id="post-container4">
+					<img class="post-img" src="img/Debit_card_ATM.jpg" width="100%" alt="Debit_card_ATM">
+					<div class="blog-txt">European banking app Monese scores $60M Series B led by Kinnevik</div>
+				</div>	
 			</div>
 		</div>
 
-
-		<!-- hr: use colr picker -->
 		<hr>
-		<!-- footer: text align center inherited from body-->
-		<!-- image: width/height -->
-		<!-- p: font size -->
+		
 		<footer>
 			<img id="cf-logo-footer" src="img/codefactory-vienna-logo.png" width="175" alt="LOGO CodeFactory">
 			<p>Valeria - CodeFctory 2019</p>
