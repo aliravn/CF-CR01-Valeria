@@ -4,33 +4,28 @@
 
 
 /*=============
- NAVBAR SECTION
+ NAVBAR SECTION >> FINISHED
  ============*/
 
 nav {
-	background-color:  #653d3d; /*use colorpicker*/
-	text-align: left;
-	padding-left: 10px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	/*margin-left: auto;
-	margin-right: auto;
-	*/	
+	background-color:  #653d3d; /*used colorpicker on assignment image*/
+	text-align: left;			/*moves elements of <li> to the left*/
+	padding-left: 10px;			/*creates a space of 10px on the left between <nav> border and <li> elements*/
+	padding-top: 5px;			/*creates a space of 5px on the top between <nav> border and <li> elements*/
+	padding-bottom: 5px;		/*creates a space of 5px on the bottom between <nav> border and <li> elements*/
 }
 
 nav li {
-	list-style-type: none;
-	display: inline;
-	margin-left: 0;
-	margin-top: 5px;
-	margin-right: 15px;
-	/*margin: 10px 10px;*/
+	list-style-type: none;		/*removes bullet points of the <li> elements*/
+	display: inline;			/*alligns <li> elements in one line instead of one under another (list style)*/
+	margin-top: 5px;			/* CHECK again!!! creates a space of 5px on the top between <nav> border and <li> elements*/
+	margin-right: 15px;			/*adds space of 15px on the rigr of each <li> element to separate them from each other*/
 }
 
 a {
-	color: #ffffff;
-	text-decoration: none;
-	font-weight: bold;
+	color: #ffffff;				/*changes color of <a> elements - nav-bar hyperlinks*/
+	text-decoration: none;		/*removes underline from <a> elements - nav-bar hyperlinks*/
+	font-weight: bold;			/*makes <a> elements - nav-bar hyperlinks bold*/
 }
 
 /*=============
