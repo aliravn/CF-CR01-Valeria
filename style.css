@@ -108,21 +108,13 @@ h1 {
 	object-fit: cover;
 }
 
-.blog-txt {
-	height: 40px;				/*declares height of <div> element*/
-	font-weight: bold;			/*makes bold text within <div>*/
-	padding-top: 10px;			/*places a space of 10px on the top between <div> border and text inside it*/
-	padding-bottom: 10px;		/*places a space of 10px in the bottom between <div> border and text inside it*/
-	margin-bottom: 50px;		/*places a space of 50px in the bottom between <div> border and <article>*/
-}
-
 h3 {
 	height: 40px;				/*declares height of <div> element*/
 	font-weight: bold;			/*makes bold text within <div>*/
 	padding-top: 10px;			/*places a space of 10px on the top between <div> border and text inside it*/
 	padding-bottom: 10px;		/*places a space of 10px in the bottom between <div> border and text inside it*/
 	margin-bottom: 50px;		/*places a space of 50px in the bottom between <div> border and <article>*/
-	margin-top: 0;
+	margin-top: 0;				/*removes any margin on top of <h3> to put header closer to image*/
 }
 
 /*=============
