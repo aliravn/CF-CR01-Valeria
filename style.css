@@ -3,7 +3,7 @@
  ============*/
 
 header {
-	text-align: left;				/*moves <img> and <span> elements inside header to the left*/
+	text-align: left;				/*moves <img> and <span> elements inside header to the left, overrides inherited from #container center allignment*/
 	background-color: #ededed;		/*used colorpicker on assignment image*/
 	position: relative;				/*makes container <header> relatively positioned, */
 }
@@ -29,7 +29,7 @@ header {
 
 nav {
 	background-color:  #653d3d; /*used colorpicker on assignment image*/
-	text-align: left;			/*moves elements of <li> to the left*/
+	text-align: left;			/*moves elements of <li> to the left, overrides inherited from #container center allignment*/
 	padding-left: 10px;			/*creates a space of 10px on the left between <nav> border and <li> elements*/
 	padding-top: 10px;			/*creates a space of 10px on the top between <nav> border and <li> elements*/
 	padding-bottom: 10px;		/*creates a space of 10px in the bottom between <nav> border and <li> elements*/
@@ -62,16 +62,20 @@ body {
 	width:  95%;
 	position: relative;
 	margin: 0 auto;
-	text-align: center;
+	text-align: center;			/*aligns all element inside container to the center*/
 	/*padding-right: 20px;
 	padding-left:  20px;
 	*/ 
-
 }
 	
+div h1 {
+	font-size: 4em;				/*sets font size to 4x bigger than current font*/
+	margin: 3% 25% 3%;			/*sets margin around the <h1> element to % of the size of the <div container>*/
+}
+
 #post-latest {
 	background-color: #978484;	/*sets color of <div> background*/
-	text-align: left;			/*moves text inside of <div> to the left*/
+	text-align: left;			/*moves text inside of <div> to the left, overrides inherited center allignment*/
 	color: #ffffff;				/*sets color of the text inside <div>*/
 	font-weight: bold;			/*makes bold text within <div>*/
 	padding-top: 10px;			/*places a space of 10px on the top between <div> border and text inside it*/
