@@ -53,6 +53,8 @@ a {
 * {
 	font-family: "Roboto", "Arial", sans-serif;
 	font-weight: bold;
+	font-stretch: expanded;
+
 }
 
 body {
@@ -80,7 +82,7 @@ h1 {
 	text-align: left;			/*moves text inside of <div> to the left, overrides inherited center allignment*/
 	color: #ffffff;				/*sets color of the text inside <div>*/
 	font-weight: bold;			/*makes bold text within <div>*/
-	padding-top: 10px;			/*places a space of 10px on the top between <div> border and text inside it*/
+	padding-top: 10px;			/*places a space sof 10px on the top between <div> border and text inside it*/
 	padding-bottom: 10px;		/*places a space of 10px in the bottom between <div> border and text inside it*/
 	padding-left: 10px;			/*places a space of 10px on the left between <div> border and text inside it*/
 	margin-bottom: 20px;		/*places a space of 20px in the bottom between <div post-latest> border and <div post-block>*/
