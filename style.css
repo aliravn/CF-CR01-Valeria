@@ -69,6 +69,18 @@ body {
 
 }
 	
+#post-latest {
+	background-color: #978484;	/*sets color of <div> background*/
+	text-align: left;			/*moves text inside of <div> to the left*/
+	color: #ffffff;				/*sets color of the text inside <div>*/
+	font-weight: bold;			/*makes bold text within <div>*/
+	padding-top: 10px;			/*places a space of 10px on the top between <div> border and text inside it*/
+	padding-bottom: 10px;		/*places a space of 10px in the bottom between <div> border and text inside it*/
+	padding-left: 10px;			/*places a space of 10px on the left between <div> border and text inside it*/
+	margin-bottom: 20px;		/*places a space of 20px in the bottom between <div post-latest> border and <div post-block>*/
+}
+
+
 .post-img{
 	width: 80%;
   	height: auto;
@@ -93,7 +105,6 @@ body {
 	padding-bottom: 10px;
 	*/
 }
-
 
 /*=============
  FOOTER SECTION >> FINISHED
