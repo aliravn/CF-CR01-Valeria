@@ -1,26 +1,26 @@
 /*=============
- HEADER SECTION
+ HEADER SECTION >> FINISHED  				
  ============*/
 
 header {
-	text-align: left;
-	background-color: #ededed;
-	position: relative;
+	text-align: left;				/*moves <img> and <span> elements inside header to the left*/
+	background-color: #ededed;		/*used colorpicker on assignment image*/
+	position: relative;				/*makes container <header> relatively positioned, */
 }
 
 #cf-logo {
-	margin-top: 5px;
-	margin-bottom: 5px;
-	margin-right: -20px;
+	margin-top: 5px;				/*creates a space of 5px on the top between <header> border and <img> element*/
+	margin-bottom: 5px;				/*creates a space of 5px in the bottom between <header> border and <img> element*/
+	margin-right: -20px;			/*removes a space of 20px on the right between <img> and <span> to move text closer to logo image*/
 	/*margin-top: 5px;*/
 }
 
 #header-text {
-	font-weight: bold;
-	margin: 0;
-   	position: absolute;       
-   	top: 50%;                 
-   	transform: translate(0, -50%) 
+	font-weight: bold;				/*makes text within <span> element bold*/
+	/*margin: 0;*/					/*removed as it does not change anything here*/
+   	position: absolute;       		/*make <span> element absolutely positioned within the container <header>*/
+   	top: 50%;                 		/*places <span> element at 50% height of the container*/
+   	transform: translate(0, -50%) 	/*moves <span> element up by half its own height - without it <span> will be lower than middle*/
 }
 
 /*=============
@@ -31,8 +31,8 @@ nav {
 	background-color:  #653d3d; /*used colorpicker on assignment image*/
 	text-align: left;			/*moves elements of <li> to the left*/
 	padding-left: 10px;			/*creates a space of 10px on the left between <nav> border and <li> elements*/
-	padding-top: 5px;			/*creates a space of 5px on the top between <nav> border and <li> elements*/
-	padding-bottom: 5px;		/*creates a space of 5px on the bottom between <nav> border and <li> elements*/
+	padding-top: 10px;			/*creates a space of 10px on the top between <nav> border and <li> elements*/
+	padding-bottom: 10px;		/*creates a space of 10px in the bottom between <nav> border and <li> elements*/
 }
 
 nav li {
@@ -45,7 +45,7 @@ nav li {
 a {
 	color: #ffffff;				/*changes color of <a> elements - nav-bar hyperlinks*/
 	text-decoration: none;		/*removes underline from <a> elements - nav-bar hyperlinks*/
-	font-weight: bold;			/*makes <a> elements - nav-bar hyperlinks bold*/
+	font-weight: bold;			/*makes text within <a> element - nav-bar hyperlinks - bold*/
 }
 
 /*=============
@@ -96,11 +96,19 @@ body {
 
 
 /*=============
- FOOTER SECTION
+ FOOTER SECTION >> FINISHED
  ============*/
 hr {
-	clear: both;
-	background-color: green /*use color picker*/;
-	height: 5px;
+	clear: both;				/*removes float inherited from #left and #right <div> elements*/
+	background-color: #978484;	/*changes background color of <hr> element, used coclorpicker on assignment picture*/
+	height: 5px;				/*declares height of <hr> element*/
 }
 
+#cf-logo-footer {				
+	padding-top: 10px;			/*places a space of 10px on the top*/
+}
+
+footer p {
+	margin-top: 10px;			/*reduces space to 10px on the top between <img> border and <p> border*/
+	margin-bottom: 50px;		/*places a space of 50px in the bottom between <page-container> border and <p> border*/
+}	
