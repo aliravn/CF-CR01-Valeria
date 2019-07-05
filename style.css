@@ -16,7 +16,6 @@ header {
 
 #header-text {
 	font-weight: bold;				/*makes text within <span> element bold*/
-	/*margin: 0;*/					/*removed as it does not change anything here*/
    	position: absolute;       		/*make <span> element absolutely positioned within the container <header>*/
    	top: 50%;                 		/*places <span> element at 50% height of the container*/
    	transform: translate(0, -50%) 	/*moves <span> element up by half its own height - without it <span> will be lower than middle*/
@@ -50,26 +49,28 @@ a {
 /*=============
  BODY SECTION
  ============*/
+
 * {
-	font-family: "Arial",sans-serif;
+	font-family: "Roboto", "Arial", sans-serif;
 	font-weight: bold;
 }
 
 body {
-	margin: 0;
-	background-color: #ffffff;
-	min-width: 960px;
+	margin: 0 auto;				/*removes margin on top and bottom, places equal margins on left and right depending on the viepoint size (browser window)*/
+	background-color: #ffffff;	/*sets background-color of the whole page*/
+	min-width: 720px;			/*sets minimal width of the page in case of resizing (to avoid to much downscaling - not nice)*/
+	max-width: 1080px;			/*sets maximal width of the page in case of resizing (to avoid image stretching - not nice)*/
 }
 
 #page-container {
 	width:  90%;
 	position: relative;
-	margin: 0 auto;
+	margin: 0 auto;				/*removes margin on top and bottom, places equal margins on left and right*/
 	text-align: center;			/*aligns all element inside container to the center*/
 }
 	
-div h1 {
-	font-size: 35pt;				/*sets font size to 4x bigger than current font*/
+h1 {
+	font-size: 30pt;			/*sets font size to 4x bigger than current font*/
 	margin: 3% 25% 3%;			/*sets margin around the <h1> element to % of the size of the <div container>*/
 }
 
@@ -112,28 +113,19 @@ div h1 {
 	margin-bottom: 50px;		/*places a space of 50px in the bottom between <div> border and <article>*/
 }
 
-
-/*.img-container {
-	background-color: orange;
-	height: 40%
+h3 {
+	height: 40px;				/*declares height of <div> element*/
+	font-weight: bold;			/*makes bold text within <div>*/
+	padding-top: 10px;			/*places a space of 10px on the top between <div> border and text inside it*/
+	padding-bottom: 10px;		/*places a space of 10px in the bottom between <div> border and text inside it*/
+	margin-bottom: 50px;		/*places a space of 50px in the bottom between <div> border and <article>*/
+	margin-top: 0;
 }
-
-.txt-container {
-	background-color: green;
-	height: 50px;
-	position:  relative;
-}
-
-.post-img{
-	width: 100%;
-	object-fit: scale-down;
-	/*width: 100%;
-  	height: 10%;
-}*/
 
 /*=============
  FOOTER SECTION >> FINISHED
  ============*/
+
 hr {
 	clear: both;				/*removes float inherited from #left and #right <div> elements*/
 	background-color: #978484;	/*changes background color of <hr> element, used coclorpicker on assignment picture*/
