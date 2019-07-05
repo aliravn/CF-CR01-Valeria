@@ -30,7 +30,10 @@ body {
 
 }
 	
-
+.post-img{
+	width: 40%;
+  	height: auto;
+}
 
 
 
@@ -43,3 +46,4 @@ hr {
 	background-color: green /*use color picker*/;
 	height: 5px;
 }
+

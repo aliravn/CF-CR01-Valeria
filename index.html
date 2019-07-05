@@ -11,7 +11,7 @@
 		<!-- span image: margins/padding -->
 		<!-- span text: font-family or move it to body?, color, font-size, web-font? (link in head for font Roboto? -->
 		<header> 			
-			<span id="cf-logo"><img src="" alt="LOGO CodeFactory"></span>
+			<span id="cf-logo"><img src="img/codefactory-vienna-logo.png" alt="LOGO CodeFactory"></span>
 			<span id="header-text">Valeria - I am a future Full Stack Web Developer</span>
 		</header>
 
@@ -24,15 +24,29 @@
 			</ul>  
 		</nav>
 
+		<!-- h1: font size need to be bigger to jump onto next line or assign it as line-->
+		<!-- check behaviour if resized-->
 		<div>
 			<h1>This is my first website :)</h1>
 		</div> 
 
-		<div>LATEST BLOG POSTS</div>
+		<!-- div: background-color (colorpicker), heading style?-->
+		<div id="post-latest">LATEST BLOG POSTS</div>
 
+		<!-- img: RESIZE, responsive If the width property is set to a percentage and the height is set to "auto", the image will be responsive-->
 		<div class="post-block">
-			<div id="left">LEFT</div>
-			<div id="right">RIGHT</div>
+			<div id="left">
+				<img class="post-img" src="img/Phone.png" alt="phone">
+				<p></p>
+				<img class="post-img" src="img/Devices.jpg" alt="devices">
+				<p></p>
+			</div>
+			<div id="right">
+				<img class="post-img" src="img/Taxify-Scooters.jpg" alt="scooter">
+				<p></p>
+				<img class="post-img" src="img/Debit_card_ATM.jpg" alt="Debit_card_ATM">
+				<p></p>
+			</div>
 		</div>
 
 
@@ -40,7 +54,7 @@
 		<hr>
 		<!-- footer: text align center inherited from body-->
 		<!-- image: width/height -->
-		<!-- p: text size -->
+		<!-- p: font size -->
 		<footer>
 			<img src="" alt="LOGO CodeFactory">
 			<p>Valeria - CodeFctory 2019</p>
