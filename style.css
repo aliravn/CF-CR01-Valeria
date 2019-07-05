@@ -72,7 +72,7 @@ body {
 
 h1 {
 	font-size: 3.5em;			/*sets font size to 4x bigger than current font*/
-	margin: 50px auto 50px;		/*places a space around <h1> element of 10px on top and bottom and equally split on left and right*/
+	margin: 53px auto 53px;		/*places a space around <h1> element of 10px on top and bottom and equally split on left and right*/
 	width: 660px;				/*widht of header is fix to maintain two lines layout even by resizing to wide screen*/
 	color: #313131;				/*changes font color of h1 element*/
 	letter-spacing: 0.1px;		/*narrows spaces between letters to match the original template style*/
@@ -83,8 +83,10 @@ h1 {
 	text-align: left;			/*moves text inside of <div> to the left, overrides inherited center allignment*/
 	color: #ffffff;				/*sets color of the text inside <div>*/
 	font-weight: bold;			/*makes bold text within <div>*/
-	padding-top: 10px;			/*places a space sof 10px on the top between <div> border and text inside it*/
-	padding-bottom: 10px;		/*places a space of 10px in the bottom between <div> border and text inside it*/
+	letter-spacing: -1.5px;
+	font-size: 12pt;
+	padding-top: 8px;			/*places a space sof 10px on the top between <div> border and text inside it*/
+	padding-bottom: 8px;		/*places a space of 10px in the bottom between <div> border and text inside it*/
 	padding-left: 10px;			/*places a space of 10px on the left between <div> border and text inside it*/
 	margin-bottom: 20px;		/*places a space of 20px in the bottom between <div post-latest> border and <div post-block>*/
 }
