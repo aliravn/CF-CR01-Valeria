@@ -64,14 +64,15 @@ body {
 
 #page-container {
 	width:  90%;
-	position: relative;
+	position: relative;			
 	margin: 0 auto;				/*removes margin on top and bottom, places equal margins on left and right*/
 	text-align: center;			/*aligns all element inside container to the center*/
 }
-	
+
 h1 {
-	font-size: 30pt;			/*sets font size to 4x bigger than current font*/
-	margin: 3% 25% 3%;			/*sets margin around the <h1> element to % of the size of the <div container>*/
+	font-size: 4em;				/*sets font size to 4x bigger than current font*/
+	margin: 10px auto 10px;		/*places a space around <h1> element of 10px on top and bottom and equally split on left and right*/
+	width:  700px;				/*widht of header is fix to maintain two lines layout even by resizing to wide screen*/
 }
 
 #post-latest {
