@@ -74,7 +74,8 @@ body {
 h1 {
 	font-size: 4em;				/*sets font size to 4x bigger than current font*/
 	margin: 10px auto 10px;		/*places a space around <h1> element of 10px on top and bottom and equally split on left and right*/
-	width:  700px;				/*widht of header is fix to maintain two lines layout even by resizing to wide screen*/
+	width: 700px;				/*widht of header is fix to maintain two lines layout even by resizing to wide screen*/
+	color: #313131;				/*changes font color of h1 element*/
 }
 
 #post-latest {
