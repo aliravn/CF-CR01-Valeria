@@ -51,7 +51,10 @@ a {
 /*=============
  BODY SECTION
  ============*/
-
+* {
+	font-family: "Arial",sans-serif;
+	font-weight: bold;
+}
 
 body {
 	margin: 0;
@@ -59,7 +62,7 @@ body {
 }
 
 #page-container {
-	width:  95%;
+	width:  90%;
 	position: relative;
 	margin: 0 auto;
 	text-align: center;			/*aligns all element inside container to the center*/
@@ -69,7 +72,7 @@ body {
 }
 	
 div h1 {
-	font-size: 3em;				/*sets font size to 4x bigger than current font*/
+	font-size: 35pt;				/*sets font size to 4x bigger than current font*/
 	margin: 3% 25% 3%;			/*sets margin around the <h1> element to % of the size of the <div container>*/
 }
 
