@@ -118,6 +118,7 @@ h1 {
 
 h3 {
 	height: 40px;				/*declares height of <div> element*/
+	font-size: 11pt;
 	font-weight: bold;			/*makes bold text within <div>*/
 	padding-top: 10px;			/*places a space of 10px on the top between <div> border and text inside it*/
 	padding-bottom: 10px;		/*places a space of 10px in the bottom between <div> border and text inside it*/
