@@ -1,5 +1,5 @@
 /*=============
- HEADER SECTION >> FINISHED  				
+ HEADER SECTION  				
  ============*/
 
 header {
@@ -22,7 +22,7 @@ header {
 }
 
 /*=============
- NAVBAR SECTION >> FINISHED    
+ NAVBAR SECTION     
  ============*/
 
 nav {
@@ -78,7 +78,7 @@ body {
 h1 {
 	font-size: 3.5em;			/*sets font size to 4x bigger than current font*/
 	margin: 53px auto 53px;		/*places a space around <h1> element of 10px on top and bottom and equally split on left and right*/
-	width: 650px;				/*widht of header is fix to maintain two lines layout even by resizing to wide screen*/
+	max-width: 60%;				/*maximal widht of header is fix to maintain two lines layout even by resizing to wide screen and zoom in/out*/
 	color: #313131;				/*changes font color of h1 element*/
 	letter-spacing: 0.1px;		/*narrows spaces between letters to match the original template style*/
 }
@@ -127,7 +127,7 @@ h3 {
 }
 
 /*=============
- FOOTER SECTION >> FINISHED
+ FOOTER SECTION 
  ============*/
 
 hr {
