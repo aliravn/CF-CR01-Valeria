@@ -135,7 +135,7 @@ h3 {
 hr {
 	clear: both;				/*removes float inherited from #left and #right <div> elements*/
 	background-color: #978484;	/*changes background color of <hr> element, used coclorpicker on assignment picture*/
-	height: 5px;				/*declares height of <hr> element*/
+	height: 2px;				/*declares height of <hr> element*/
 }
 
 #cf-logo-footer {				
