@@ -33,10 +33,15 @@ nav {
 	padding-bottom: 8px;		/*creates a space of 10px in the bottom between <nav> border and <li> elements*/
 }
 
+ul {
+	margin: 0;
+	padding: 0;
+}
+
 nav li {
 	list-style-type: none;		/*removes bullet points of the <li> elements*/
 	display: inline;			/*alligns <li> elements in one line instead of one under another (list style)*/
-	margin-right: 23px;			/*adds space of 15px on the rigr of each <li> element to separate them from each other*/
+	margin-right: 15px;			/*adds space of 15px on the rigr of each <li> element to separate them from each other*/
 }
 
 a {
@@ -73,7 +78,7 @@ body {
 h1 {
 	font-size: 3.5em;			/*sets font size to 4x bigger than current font*/
 	margin: 53px auto 53px;		/*places a space around <h1> element of 10px on top and bottom and equally split on left and right*/
-	width: 660px;				/*widht of header is fix to maintain two lines layout even by resizing to wide screen*/
+	width: 650px;				/*widht of header is fix to maintain two lines layout even by resizing to wide screen*/
 	color: #313131;				/*changes font color of h1 element*/
 	letter-spacing: 0.1px;		/*narrows spaces between letters to match the original template style*/
 }
