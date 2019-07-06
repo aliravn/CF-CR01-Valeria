@@ -26,7 +26,7 @@ header {
  ============*/
 
 nav {
-	background-color:  #653d3d; /*used colorpicker on assignment image*/
+	background-color: #653d3d; 	/*used colorpicker on assignment image*/
 	text-align: left;			/*moves elements of <li> to the left, overrides inherited from #container center allignment*/
 	padding-left: 10px;			/*creates a space of 10px on the left between <nav> border and <li> elements*/
 	padding-top: 8px;			/*creates a space of 10px on the top between <nav> border and <li> elements*/
@@ -69,7 +69,7 @@ body {
 }
 
 #page-container {
-	width:  90%;
+	width: 90%;
 	position: relative;			
 	margin: 0 auto;				/*removes margin on top and bottom, places equal margins on left and right*/
 	text-align: center;			/*aligns all element inside container to the center*/
@@ -112,8 +112,9 @@ h1 {
 
 .post-img {
 	width: 100%;
-  	height: 170px;
-	object-fit: cover;
+  	height: 250px;
+	/*object-fit: cover;*/
+
 }
 
 h3 {
