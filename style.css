@@ -64,7 +64,7 @@ a {
 body {
 	margin: 0 auto;				/*removes margin on top and bottom, places equal margins on left and right depending on the viepoint size (browser window)*/
 	background-color: #ffffff;	/*sets background-color of the whole page*/
-	min-width: 720px;			/*sets minimal width of the page in case of resizing (to avoid to much downscaling - not nice)*/
+	/*min-width: 720px;			/*sets minimal width of the page in case of resizing (to avoid to much downscaling - not nice)*/
 	max-width: 1080px;			/*sets maximal width of the page in case of resizing (to avoid image stretching - not nice)*/
 }
 
@@ -111,8 +111,8 @@ h1 {
 
 .post-img {
 	width: 100%;				/*sets width of image to be 100% of the container width*/
-  	height: 250px;				/*sets height of image to be fix because initil images have different ratio and I didnt anage to crop them with css tools*/
-	/*object-fit: cover;*/		/*if enabled, produces crop effect to images upon resizing*/
+  	height: 220px;				/*sets height of image to be fix because initil images have different ratio and I didnt anage to crop them with css tools*/
+	object-fit: cover;		/*if enabled, produces crop effect to images upon resizing*/
 }
 
 h3 {
