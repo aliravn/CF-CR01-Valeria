@@ -65,7 +65,8 @@ body {
 	margin: 0 auto;				/*removes margin on top and bottom, places equal margins on left and right depending on the viepoint size (browser window)*/
 	background-color: #ffffff;	/*sets background-color of the whole page*/
 	/*min-width: 720px;			/*sets minimal width of the page in case of resizing (to avoid to much downscaling - not nice)*/
-	max-width: 1080px;			/*sets maximal width of the page in case of resizing (to avoid image stretching - not nice)*/
+		/*sets maximal width of the page in case of resizing (to avoid image stretching - not nice)*/
+	height: auto;	
 }
 
 #page-container {
@@ -74,10 +75,14 @@ body {
 	text-align: center;			/*aligns all element inside container to the center*/
 }
 
+main {
+	width: 100%;
+}
+
 h1 {
-	font-size: 3.5em;			/*sets font size to 4x bigger than current font*/
+	font-size: 6vw;				/*sets font size to 4x bigger than current font*/
 	margin: 53px auto 53px;		/*places a space around <h1> element of 10px on top and bottom and equally split on left and right*/
-	max-width: 60%;				/*maximal widht of header is fix to maintain two lines layout even by resizing to wide screen and zoom in/out*/
+	width: 60%;					/*maximal widht of header is fix to maintain two lines layout even by resizing to wide screen and zoom in/out*/
 	color: #313131;				/*changes font color of h1 element*/
 	letter-spacing: 0.1px;		/*narrows spaces between letters to match the original template style*/
 }
@@ -87,45 +92,53 @@ h1 {
 	text-align: left;			/*moves text inside of <div> to the left, overrides inherited center allignment*/
 	color: #ffffff;				/*sets color of the text inside <div>*/
 	font-weight: bold;			/*makes bold text within <div>*/
-	letter-spacing: -1.5px;		/*reduces space between letters*/
-	font-size: 12pt;			/*assigns font size*/
-	padding-top: 8px;			/*places a space sof 10px on the top between <div> border and text inside it*/
-	padding-bottom: 8px;		/*places a space of 10px in the bottom between <div> border and text inside it*/
+	font-size: 10pt;			/*assigns font size*/
+	padding-top: 1vw;			/*places a space sof 10px on the top between <div> border and text inside it*/
+	padding-bottom: 1vw;		/*places a space of 10px in the bottom between <div> border and text inside it*/
 	padding-left: 10px;			/*places a space of 10px on the left between <div> border and text inside it*/
-	margin-bottom: 20px;		/*places a space of 20px in the bottom between <div post-latest> border and <div post-block>*/
+	/*margin-bottom: 20px;		/*places a space of 20px in the bottom between <div post-latest> border and <div post-block>*/
 }
 
-#left-block {
-	float: left;				/*makes left column to stick to the left side of the screen*/
-	text-align: left;			/*alligns to the all elements inside left column, override to inherite page container allignment*/
-	width: 44%;					/*sets width of column to be 44% of the body size*/
-	margin-right: 6%;			/*places a space of 6% of body size on the right of element so the columns dont touch each other*/
+/*==================================*/
+
+#row {
+	float: left;
+	width:  100%;
 }
 
-#right-block {
-	float: right;				/*makes left column to stick to the right side of the screen*/
-	text-align: left;			/*alligns to the all elements inside left column, override to inherite page container allignment*/
-	width: 44%;					/*sets width of column to be 44% of the body size*/
-	margin-left: 6%;			/*places a space of 6% of body size on the left of element so the columns dont touch each other*/
+.blog-post {
+	/*makes divs go from original one below other view to a line*/	
+	/*should be applied to the elements, that should float, not container*/	
+	float: left;
+	width: 45%;
+	height: 25vw;
+	margin: 2vw 0;
+}
+
+.left {
+	margin-right: 5%;
+}
+
+.right {
+	margin-left: 5%;
 }
 
 .post-img {
-	width: 100%;				/*sets width of image to be 100% of the container width*/
-  	height: 220px;				/*sets height of image to be fix because initil images have different ratio and I didnt anage to crop them with css tools*/
-	object-fit: cover;		/*if enabled, produces crop effect to images upon resizing*/
+	width: 100%;
+	height: 20vw;
 }
 
-h3 {
-	height: 40px;				/*declares height of <div> element*/
-	font-size: 11pt;
-	font-weight: bold;			/*makes bold text within <div>*/
-	color: #313131;
-	padding-top: 10px;			/*places a space of 10px on the top between <div> border and text inside it*/
-	padding-bottom: 10px;		/*places a space of 10px in the bottom between <div> border and text inside it*/
-	margin-bottom: 50px;		/*places a space of 50px in the bottom between <div> border and <article>*/
-	margin-top: 0;				/*removes any margin on top of <h3> to put header closer to image*/
-	/*text-align: justify; not suitable for assignment, but with it would be nicer*/
+.post-txt {
+	margin: auto;
+	padding-left: 1px;
+	text-align:  left;
+	font-size: 1.5vw;
 }
+
+.down {
+	margin-bottom: 10vw
+}
+/*==================================*/
 
 #construction {
 	width: 100%;				/*sets width of image to be 100% of the container width*/
@@ -145,7 +158,7 @@ hr {
 	padding-top: 10px;			/*places a space of 10px on the top*/
 }
 
-footer p {
+footer > p {
 	margin-top: 10px;			/*reduces space to 10px on the top between <img> border and <p> border*/
 	margin-bottom: 50px;		/*places a space of 50px in the bottom between <page-container> border and <p> border*/
 }	
